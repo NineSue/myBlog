@@ -1,16 +1,15 @@
 import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } from 'astro-pure/types'
 
-// @ts-ignore
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'An\'s Blog',
+  title: 'Astro Theme Pure',
   /** Will be used in index page & copyright declaration */
-  author: 'An',
+  author: 'Pure Lab',
   /** Description metadata for your website. Can be used in page metadata. */
-  description: '别把看重的东西附上无边的价值',
+  description: 'Stay hungry, stay foolish',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
-  favicon: '/favicon/star.ico',
+  favicon: '/favicon/favicon.ico',
   /** Specify the default language for this site. */
   locale: {
     lang: 'en-US',
@@ -49,8 +48,8 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      //{ title: 'Docs', link: '/docs' },
-      // { title: 'Projects', link: '/projects' },
+      { title: 'Docs', link: '/docs' },
+      { title: 'Projects', link: '/projects' },
       { title: 'Links', link: '/links' },
       { title: 'About', link: '/about' }
     ]
@@ -59,33 +58,31 @@ export const theme: ThemeUserConfig = {
   /** Configure the footer of your site. */
   footer: {
     // Year format
-    year: `© ${new Date().getFullYear()} NineSue`,
+    year: `© ${new Date().getFullYear()}`,
     // year: `© 2019 - ${new Date().getFullYear()}`,
-    // links: [
-    //   // Registration link
-    //   {
-    //     title: 'Moe ICP 114514',
-    //     link: 'https://icp.gov.moe/?keyword=114514',
-    //     style: 'text-sm' // Uno/TW CSS class
-    //   },
-    //   {
-    //     title: 'Travelling',
-    //     link: 'https://www.travellings.cn/go.html',
-    //     style: 'text-sm'
-    //   },
-    //   // Privacy Policy link
-    //   {
-    //     title: 'Site Policy',
-    //     link: '/terms/list',
-    //     pos: 2 // position set to 2 will be appended to copyright line
-    //   }
-    // ],
+    links: [
+      // Registration link
+      {
+        title: 'Moe ICP 114514',
+        link: 'https://icp.gov.moe/?keyword=114514',
+        style: 'text-sm' // Uno/TW CSS class
+      },
+      {
+        title: 'Travelling',
+        link: 'https://www.travellings.cn/go.html',
+        style: 'text-sm'
+      },
+      // Privacy Policy link
+      {
+        title: 'Site Policy',
+        link: '/terms/list',
+        pos: 2 // position set to 2 will be appended to copyright line
+      }
+    ],
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
-    credits: false,
+    credits: true,
     /** Optional details about the social media accounts for this site. */
-    social: {
-      github: 'https://github.com/NineSue'
-    }
+    social: { github: 'https://github.com/cworld1/astro-theme-pure' }
   },
 
   content: {
@@ -120,8 +117,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://github.com/NineSue' },
-      { name: 'Avatar', val: 'https://avatars.githubusercontent.com/u/77034919?v=4' }
+      { name: 'Link', val: 'https://astro-pure.js.org/' },
+      { name: 'Avatar', val: 'https://astro-pure.js.org/favicon/favicon.ico' }
     ]
   },
   // Enable page search function
@@ -156,7 +153,7 @@ export const integ: IntegrationUserConfig = {
   },
   // Comment system
   waline: {
-    enable: false,
+    enable: true,
     // Server service link
     server: 'https://astro-theme-pure-waline.arthals.ink/',
     // Refer https://waline.js.org/en/guide/features/emoji.html
