@@ -12,23 +12,21 @@ const headings = [
   { depth: 2, slug: 'about-blog', text: 'About Blog' }
 ]
 ---
+<PageLayout title='About' {headings} view={true}>
 
-<PageLayout title='About' {headings} comment>
-<!--不要评论区-->
-<!--<PageLayout title='About' {headings}>-->
-  <p> Developer / Learner /
-    <span class="line-through">Explosion Magic User</span></p>
-  <p>
-    你好，叫我安，或者小安都可以。<br />
-    最近我尝试从底层的视角理解系统与架构，虽然才疏学浅，但乐于探索。<br />
-    我的兴趣集中在分布式系统、图数据处理和后端架构方向。<br />
-    我喜欢听歌、追番，以及写代码。请多关照。
-  </p>
-  <p>
-    <Spoiler>不愧对自己，不偏离本心。<br />
-      That's how life works sometimes, I took what was mine, I'm not sorry for it.</Spoiler>
-  </p>
-  <Button title='Sponsor Me' class='w-fit' href='/projects#sponsorship' variant='ahead' />
+  <h2 id='tools' class="mt-4 mb-2">About Me</h2>
+  <ul class="space-y-1">
+    <li>
+      <p>Developer / Learner / <span class="line-through">Explosion Magic User</span></p>
+    </li>
+    <li>
+      <span>改造自己, 进而改造世界🚩</span>
+      <Spoiler>革命无罪，造反有理！</Spoiler>
+    </li>
+  </ul>
+
+
+
 
   <!--{/* general-talk */}-->
   <!--<h2 id='hobbies'>Hobbies</h2>-->
