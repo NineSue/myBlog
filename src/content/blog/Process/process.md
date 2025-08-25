@@ -70,7 +70,7 @@ static struct task_struct *copy_process(unsigned long flags, ...) {
 ---
 
 ## 两棵树：关系与调度
-在 Linux 实现中，不论进程还是线程，都统一称为 **Task**，由 `task_struct` 来表示。
+现在，不论进程还是线程，我们将其称为 **Task**，由 `task_struct` 来表示。
 
 Linux 内核中，进程与线程被组织在两棵树中：
 
