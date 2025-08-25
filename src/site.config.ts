@@ -160,7 +160,7 @@ export const integ: IntegrationUserConfig = {
     server: 'https://astro-theme-pure-waline.arthals.ink/',
     // Refer https://waline.js.org/en/guide/features/emoji.html
     emoji: ['bmoji', 'weibo'],
-    // Refer https://waline.js.org/en/reference/client/props.html
+    // Refer https://waline.js.org/en/reference/client/props.htmlsite
     additionalConfigs: {
       // search: false,
       pageview: true,
