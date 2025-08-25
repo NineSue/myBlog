@@ -1,6 +1,6 @@
 ---
 title: 'Hello World'
-author: '系统'
+author: '安'
 description: '这是一篇示例文章，用于测试。'
 publishDate: '2025-08-24'
 updatedDate: '2025-08-24'
@@ -10,7 +10,7 @@ tags:
   - Test
 language: 'Chinese & English'
 draft: false
-heroImage: { src: './0.png', color: '#D58388' }
+heroImage: { src: './0.png', color: '#00ADD8' }
 ---
 
 # Hello World 🎉
