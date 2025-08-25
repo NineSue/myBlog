@@ -25,7 +25,7 @@ import config from './src/site.config.ts'
 // https://astro.build/config
 export default defineConfig({
   // Top-Level Options
-  site: 'https://ninesue.vercel.app',
+  site: 'https://ninesue.online',
   // base: '/docs',
   trailingSlash: 'never',
 

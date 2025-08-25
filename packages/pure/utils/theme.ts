@@ -36,6 +36,6 @@ export function setTheme(theme?: string, save = false) {
     .querySelector('meta[name="theme-color"]')
     ?.setAttribute('content', targetTheme === 'dark' ? '#0B0B10' : '#FCFCFD')
 
-  new Audio('/sound/switch-on.mp3').play() // 不推荐，自动切换也会有声音
+
   return theme
 }
