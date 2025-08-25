@@ -48,7 +48,7 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      //{ title: 'Docs', link: '/docs' },
+      // { title: 'Docs', link: '/docs' },
       // { title: 'Projects', link: '/projects' },
       { title: 'Links', link: '/links' },
       { title: 'About', link: '/about' }
@@ -119,7 +119,7 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://github.com/NineSue' },
+      { name: 'Link', val: 'https://ninesue.vercel.app/' },
       { name: 'Avatar', val: 'https://avatars.githubusercontent.com/u/77034919?v=4' }
     ]
   },
