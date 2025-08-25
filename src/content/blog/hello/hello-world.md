@@ -8,7 +8,7 @@ tags:
   - Java
   - 示例
   - Test
-language: 'Chinese & English'
+language: 'Chinese'
 draft: false
 heroImage: { src: './0.png', color: '#00ADD8' }
 ---

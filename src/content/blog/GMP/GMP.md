@@ -9,7 +9,7 @@ tags:
   - GMP
   - 并发
   - Goroutine
-language: 'Chinese & English'
+language: 'Chinese'
 draft: false
 heroImage: { src: './0.png', color: '#00ADD8' }
 ---

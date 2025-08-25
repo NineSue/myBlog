@@ -9,7 +9,7 @@ tags:
   - 进程
   - 线程
   - 系统调用
-language: 'Chinese & English'
+language: 'Chinese'
 draft: true
-heroImage: { src: './0.png', color: '#00ADD8' }
+heroImage: { src: './0.jpg', color: '#00ADD8' }
 ---
