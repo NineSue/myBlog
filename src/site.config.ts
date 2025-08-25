@@ -119,7 +119,7 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://ninesue.vercel.app/' },
+      { name: 'Link', val: 'https://ninesue.online' },
       { name: 'Avatar', val: 'https://avatars.githubusercontent.com/u/77034919?v=4' }
     ]
   },
