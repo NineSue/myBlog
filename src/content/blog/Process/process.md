@@ -28,6 +28,9 @@ heroImage: { src: './0.jpg', color: '#E43A3A' }
 
 
 ```c
+//通过 clone() / fork() / pthread_create() 的返回值和 PID 可以区分进程与线程：
+//线程返回 0（表示是子线程），进程返回新 PID，失败返回 -1
+
 // ========== 用户态 ==========
 int pthread_create(...) {
     return clone(start_routine, stack,
@@ -64,7 +67,6 @@ static struct task_struct *copy_process(unsigned long flags, ...) {
 }
 
 ````
-
 </details>
 
 ---
