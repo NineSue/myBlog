@@ -10,7 +10,7 @@ tags:
   - 并发
   - Goroutine
 language: 'Chinese & English'
-draft: true
+draft: false
 heroImage: { src: './0.png', color: '#00ADD8' }
 ---
 
