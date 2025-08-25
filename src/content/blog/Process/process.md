@@ -11,7 +11,7 @@ tags:
   - 系统调用
   - 操作系统
 language: 'Chinese'
-draft: true
+draft: false
 heroImage: { src: './0.jpg', color: '#E43A3A' }
 ---
 
