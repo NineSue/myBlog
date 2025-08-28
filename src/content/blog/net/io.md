@@ -5,10 +5,10 @@ description: '瞅瞅I/O模型做的那些事儿'
 publishDate: '2025-08-28'
 updatedDate: '2025-08-28'
 tags:
-  - 进程间通信
   - 网络
   - 内核
   - 操作系统
+  - IO
 language: 'Chinese'
 draft: false
 heroImage: { src: './0.jpg', color: '#690600' }
