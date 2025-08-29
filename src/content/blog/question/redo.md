@@ -53,5 +53,5 @@ Raft 和 Zab 的核心区别在于 **Leader 选举和日志一致性处理时机
 
 ---
 
-### 感谢
+### 特别感谢
 感谢[Honesty](https://blog.hehouhui.cn/) 前辈的邮件回复，细腻地解答了1、2问的疑惑。
