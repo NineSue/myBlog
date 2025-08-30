@@ -1,7 +1,7 @@
 ---
 title: '佬们问题记录本'
 author: '安'
-description: '学长在群里问的问题及其回答，咱偷偷记下来'
+description: '咱、学长在群里问的问题及其回答，咱偷偷记下来'
 publishDate: '2025-08-29'
 updatedDate: '2025-08-29'
 tags:
