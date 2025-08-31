@@ -1,5 +1,5 @@
 ---
-title: 'Spring 场景题'
+title: '一道题瞅瞅Spring启动流程'
 author: '安'
 description: '换种方式找jar包而已，之后可以学这种方式用在项目里。'
 publishDate: '2025-08-29'
